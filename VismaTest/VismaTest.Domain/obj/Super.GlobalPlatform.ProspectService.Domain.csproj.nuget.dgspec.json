@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\Personales\\PruebaPedidos\\ob-ms-prospect\\src\\Super.GlobalPlatform.ProspectService.Domain\\Super.GlobalPlatform.ProspectService.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\Personales\\PruebaPedidos\\ob-ms-prospect\\src\\Super.GlobalPlatform.ProspectService.Domain\\Super.GlobalPlatform.ProspectService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\Personales\\PruebaPedidos\\ob-ms-prospect\\src\\Super.GlobalPlatform.ProspectService.Domain\\Super.GlobalPlatform.ProspectService.Domain.csproj",
+        "projectName": "Super.GlobalPlatform.ProspectService.Domain",
+        "projectPath": "C:\\projects\\Personales\\PruebaPedidos\\ob-ms-prospect\\src\\Super.GlobalPlatform.ProspectService.Domain\\Super.GlobalPlatform.ProspectService.Domain.csproj",
+        "packagesPath": "C:\\Users\\lucas.oliva\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Personales\\PruebaPedidos\\ob-ms-prospect\\src\\Super.GlobalPlatform.ProspectService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\projects\\Personales\\PruebaPedidos\\ob-ms-prospect\\NuGet.Config",
+          "C:\\Users\\lucas.oliva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Superdigital-HoldCo/_packaging/Superdigital-HoldCo/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Silverback.Core.Model": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Super.GlobalPlatform.AccountManagement.ApiClient": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Super.GlobalPlatform.OrganizationStructure.ApiClient": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Super.GlobalPlatform.Person.ApiClient": {
+              "target": "Package",
+              "version": "[1.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

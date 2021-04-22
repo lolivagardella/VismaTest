@@ -1,0 +1,17 @@
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Bootstrap.deps.json
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Bootstrap.dll
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Bootstrap.pdb
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Application.dll
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Domain.dll
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Persistance.dll
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Application.pdb
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Domain.pdb
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\bin\Debug\netcoreapp3.1\VismaTest.Persistance.pdb
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\VismaTest.Bootstrap.csprojAssemblyReference.cache
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\RefitStubs.g.cs
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\VismaTest.Bootstrap.AssemblyInfoInputs.cache
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\VismaTest.Bootstrap.AssemblyInfo.cs
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\VismaTest.Bootstrap.csproj.CoreCompileInputs.cache
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\VismaTest.Bootstrap.csproj.CopyComplete
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\VismaTest.Bootstrap.dll
+C:\projects\VismaTest\VismaTest\VismaTest.Bootstrap\obj\Debug\netcoreapp3.1\VismaTest.Bootstrap.pdb

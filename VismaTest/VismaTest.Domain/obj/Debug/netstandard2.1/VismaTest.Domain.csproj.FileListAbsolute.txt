@@ -1,0 +1,12 @@
+C:\projects\VismaTest\APR.API.Pedidos\APR.Pedidos.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.csprojAssemblyReference.cache
+C:\projects\VismaTest\APR.API.Pedidos\APR.Pedidos.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.AssemblyInfoInputs.cache
+C:\projects\VismaTest\APR.API.Pedidos\APR.Pedidos.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.AssemblyInfo.cs
+C:\projects\VismaTest\APR.API.Pedidos\APR.Pedidos.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.csproj.CoreCompileInputs.cache
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\bin\Debug\netstandard2.1\VismaTest.Domain.deps.json
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\bin\Debug\netstandard2.1\VismaTest.Domain.dll
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\bin\Debug\netstandard2.1\VismaTest.Domain.pdb
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.AssemblyInfoInputs.cache
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.AssemblyInfo.cs
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.csproj.CoreCompileInputs.cache
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.dll
+C:\projects\VismaTest\VismaTest\VismaTest.Domain\obj\Debug\netstandard2.1\VismaTest.Domain.pdb

@@ -1,0 +1,17 @@
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.deps.json
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.dll
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.pdb
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Application.dll
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Domain.dll
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Persistance.dll
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Application.pdb
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Domain.pdb
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\bin\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Persistance.pdb
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.csprojAssemblyReference.cache
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\RefitStubs.g.cs
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.csproj.CoreCompileInputs.cache
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.AssemblyInfoInputs.cache
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.AssemblyInfo.cs
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.csproj.CopyComplete
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.dll
+C:\projects\SuperDigital\ob-ms-prospect\src\Super.GlobalPlatform.ProspectService.Bootstrap\obj\Debug\netcoreapp3.0\Super.GlobalPlatform.ProspectService.Bootstrap.pdb

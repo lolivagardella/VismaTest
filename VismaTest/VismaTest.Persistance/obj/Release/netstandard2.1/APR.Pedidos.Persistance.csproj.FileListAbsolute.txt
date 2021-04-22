@@ -1,0 +1,15 @@
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\bin\Release\netstandard2.1\APR.Pedidos.Persistance.deps.json
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\bin\Release\netstandard2.1\APR.Pedidos.Persistance.dll
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\bin\Release\netstandard2.1\APR.Pedidos.Persistance.pdb
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\bin\Release\netstandard2.1\APR.Pedidos.Application.dll
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\bin\Release\netstandard2.1\APR.Pedidos.Domain.dll
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\bin\Release\netstandard2.1\APR.Pedidos.Application.pdb
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\bin\Release\netstandard2.1\APR.Pedidos.Domain.pdb
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\APR.Pedidos.Persistance.csprojAssemblyReference.cache
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\RefitStubs.g.cs
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\APR.Pedidos.Persistance.AssemblyInfoInputs.cache
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\APR.Pedidos.Persistance.AssemblyInfo.cs
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\APR.Pedidos.Persistance.csproj.CoreCompileInputs.cache
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\APR.Pedidos.Persistance.csproj.CopyComplete
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\APR.Pedidos.Persistance.dll
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Persistance\obj\Release\netstandard2.1\APR.Pedidos.Persistance.pdb

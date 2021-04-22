@@ -1,0 +1,380 @@
+2021-01-05 11:08:48.686 -03:00 [INF] Starting web host
+2021-01-05 11:08:51.334 -03:00 [INF] Entity Framework Core 5.0.1 initialized 'PedidoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-05 11:08:52.055 -03:00 [ERR] Failed executing DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PedidosDb];
+2021-01-05 11:08:52.077 -03:00 [FTL] Application startup exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 39
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ClientConnectionId:6c6fce23-18d9-4ed6-bf15-7ab8d810a916
+Error Number:262,State:1,Class:14
+2021-01-05 11:08:52.185 -03:00 [FTL] Host terminated unexpectedly
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 39
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at APR.Pedidos.API.Program.Main(String[] args) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Program.cs:line 27
+ClientConnectionId:6c6fce23-18d9-4ed6-bf15-7ab8d810a916
+Error Number:262,State:1,Class:14
+2021-01-05 11:15:38.809 -03:00 [INF] Starting web host
+2021-01-05 11:15:41.306 -03:00 [INF] Entity Framework Core 5.0.1 initialized 'PedidoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-05 11:15:42.055 -03:00 [ERR] Failed executing DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PedidosDb];
+2021-01-05 11:15:42.080 -03:00 [FTL] Application startup exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 39
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ClientConnectionId:3ee41a03-66c8-4272-bc43-62537a4224e0
+Error Number:262,State:1,Class:14
+2021-01-05 11:15:42.177 -03:00 [FTL] Host terminated unexpectedly
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 39
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at APR.Pedidos.API.Program.Main(String[] args) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Program.cs:line 27
+ClientConnectionId:3ee41a03-66c8-4272-bc43-62537a4224e0
+Error Number:262,State:1,Class:14
+2021-01-05 11:44:00.049 -03:00 [INF] Starting web host
+2021-01-05 11:44:03.312 -03:00 [INF] Entity Framework Core 5.0.1 initialized 'PedidoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-05 11:44:04.238 -03:00 [ERR] Failed executing DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PedidosDb];
+2021-01-05 11:44:04.272 -03:00 [FTL] Application startup exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 39
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ClientConnectionId:04a0503e-1dcf-4eca-a5e4-5fb6ceeb415c
+Error Number:262,State:1,Class:14
+2021-01-05 11:44:04.393 -03:00 [FTL] Host terminated unexpectedly
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 39
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at APR.Pedidos.API.Program.Main(String[] args) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Program.cs:line 27
+ClientConnectionId:04a0503e-1dcf-4eca-a5e4-5fb6ceeb415c
+Error Number:262,State:1,Class:14
+2021-01-05 11:56:13.440 -03:00 [INF] Starting web host
+2021-01-05 11:56:16.645 -03:00 [INF] Entity Framework Core 5.0.1 initialized 'PedidoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-05 11:56:17.678 -03:00 [ERR] Failed executing DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PedidosDb];
+2021-01-05 11:56:17.715 -03:00 [FTL] Application startup exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 39
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISSetupFilter.<>c__DisplayClass4_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ClientConnectionId:a7decccd-6020-4846-90f8-ce3421049305
+Error Number:262,State:1,Class:14
+2021-01-05 11:56:17.913 -03:00 [INF] Now listening on: http://127.0.0.1:23072
+2021-01-05 11:56:17.914 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-05 11:56:17.914 -03:00 [INF] Hosting environment: Production
+2021-01-05 11:56:17.914 -03:00 [INF] Content root path: C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\bin\Release\netcoreapp3.1\publish
+2021-01-05 11:56:18.334 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/  
+2021-01-05 11:56:18.367 -03:00 [INF] Request finished in 48.2576ms 500 text/html; charset=utf-8
+2021-01-05 11:56:18.547 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/favicon.ico  
+2021-01-05 11:56:18.548 -03:00 [INF] Request finished in 1.3316ms 500 text/html; charset=utf-8
+2021-01-05 11:57:11.378 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/articulos  
+2021-01-05 11:57:11.380 -03:00 [INF] Request finished in 1.7556ms 500 text/html; charset=utf-8
+2021-01-05 11:57:21.199 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/pedidos/articulos  
+2021-01-05 11:57:21.201 -03:00 [INF] Request finished in 2.1142ms 500 text/html; charset=utf-8
+2021-01-05 11:57:25.821 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/pedido/articulos  
+2021-01-05 11:57:25.823 -03:00 [INF] Request finished in 1.6476ms 500 text/html; charset=utf-8
+2021-01-05 11:57:28.959 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/pedido/articulo  
+2021-01-05 11:57:28.960 -03:00 [INF] Request finished in 1.0831ms 500 text/html; charset=utf-8
+2021-01-05 11:58:31.493 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/pedidos/Articulo  
+2021-01-05 11:58:31.495 -03:00 [INF] Request finished in 1.7239ms 500 text/html; charset=utf-8
+2021-01-05 11:58:37.672 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/pedidos/Articulo  
+2021-01-05 11:58:37.677 -03:00 [INF] Request finished in 5.3016ms 500 text/html; charset=utf-8
+2021-01-05 12:04:14.982 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/  
+2021-01-05 12:04:14.983 -03:00 [INF] Request finished in 1.4079ms 500 text/html; charset=utf-8
+2021-01-05 12:04:15.086 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/favicon.ico  
+2021-01-05 12:04:15.088 -03:00 [INF] Request finished in 1.6737ms 500 text/html; charset=utf-8
+2021-01-05 12:04:16.035 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/  
+2021-01-05 12:04:16.036 -03:00 [INF] Request finished in 1.5268ms 500 text/html; charset=utf-8
+2021-01-05 12:04:16.071 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/favicon.ico  
+2021-01-05 12:04:16.072 -03:00 [INF] Request finished in 0.7041ms 500 text/html; charset=utf-8
+2021-01-05 12:04:16.571 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/  
+2021-01-05 12:04:16.572 -03:00 [INF] Request finished in 0.9512ms 500 text/html; charset=utf-8
+2021-01-05 12:04:16.618 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/favicon.ico  
+2021-01-05 12:04:16.619 -03:00 [INF] Request finished in 1.2108ms 500 text/html; charset=utf-8
+2021-01-05 12:16:50.313 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:23072/iisintegration  0
+2021-01-05 12:16:50.313 -03:00 [INF] Request finished in 1.1289ms 500 text/html; charset=utf-8
+2021-01-05 12:16:50.317 -03:00 [INF] Application is shutting down...
+2021-01-05 12:18:00.606 -03:00 [INF] Starting web host
+2021-01-05 12:18:02.084 -03:00 [INF] Entity Framework Core 5.0.1 initialized 'PedidoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-05 12:18:02.510 -03:00 [ERR] Failed executing DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PedidosDb];
+2021-01-05 12:18:02.525 -03:00 [FTL] Application startup exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 38
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ClientConnectionId:d8438738-dc78-4bc7-9e8b-74437d077184
+Error Number:262,State:1,Class:14
+2021-01-05 12:18:02.573 -03:00 [FTL] Host terminated unexpectedly
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 38
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at APR.Pedidos.API.Program.Main(String[] args) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Program.cs:line 27
+ClientConnectionId:d8438738-dc78-4bc7-9e8b-74437d077184
+Error Number:262,State:1,Class:14
+2021-01-05 12:19:18.252 -03:00 [INF] Starting web host
+2021-01-05 12:19:19.718 -03:00 [INF] Entity Framework Core 5.0.1 initialized 'PedidoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-01-05 12:19:20.198 -03:00 [ERR] Failed executing DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [PedidosDb];
+2021-01-05 12:19:20.212 -03:00 [FTL] Application startup exception
+Microsoft.Data.SqlClient.SqlException (0x80131904): CREATE DATABASE permission denied in database 'master'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean isAsync, Int32 timeout, Boolean asyncWrite)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String methodName)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteNonQuery(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerDatabaseCreator.Create()
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at APR.Pedidos.Bootstrap.Providers.PersistanceConfiguration.RunMigrations(IApplicationBuilder app) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\Providers\PersistanceConfiguration.cs:line 46
+   at APR.Pedidos.Bootstrap.ServiceConfiguration.Configure(IApplicationBuilder app, IWebHostEnvironment webHostEnvironment, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Bootstrap\ServiceConfiguration.cs:line 38
+   at APR.Pedidos.API.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env, IApiVersionDescriptionProvider provider, IConfiguration configuration, IHostApplicationLifetime appLifetime) in C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\Startup.cs:line 52
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__2(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISSetupFilter.<>c__DisplayClass4_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+ClientConnectionId:0ac8ecdb-da7c-4ec8-a54a-5caa5d18efe5
+Error Number:262,State:1,Class:14
+2021-01-05 12:19:20.318 -03:00 [INF] Now listening on: http://127.0.0.1:14688
+2021-01-05 12:19:20.318 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-05 12:19:20.319 -03:00 [INF] Hosting environment: Production
+2021-01-05 12:19:20.319 -03:00 [INF] Content root path: C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.API\bin\Release\netcoreapp3.1\publish
+2021-01-05 12:19:20.471 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/  
+2021-01-05 12:19:20.483 -03:00 [INF] Request finished in 14.7472ms 500 text/html; charset=utf-8
+2021-01-05 12:19:20.579 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:9095/favicon.ico  
+2021-01-05 12:19:20.580 -03:00 [INF] Request finished in 0.4322ms 500 text/html; charset=utf-8
+2021-01-05 12:24:46.333 -03:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:14688/iisintegration  0
+2021-01-05 12:24:46.333 -03:00 [INF] Request finished in 0.8859ms 500 text/html; charset=utf-8
+2021-01-05 12:24:46.336 -03:00 [INF] Application is shutting down...

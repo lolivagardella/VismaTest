@@ -1,0 +1,13 @@
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\bin\Release\netstandard2.1\APR.Pedidos.Application.deps.json
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\bin\Release\netstandard2.1\APR.Pedidos.Application.dll
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\bin\Release\netstandard2.1\APR.Pedidos.Application.pdb
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\bin\Release\netstandard2.1\APR.Pedidos.Domain.dll
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\bin\Release\netstandard2.1\APR.Pedidos.Domain.pdb
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\APR.Pedidos.Application.csprojAssemblyReference.cache
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\RefitStubs.g.cs
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\APR.Pedidos.Application.AssemblyInfoInputs.cache
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\APR.Pedidos.Application.AssemblyInfo.cs
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\APR.Pedidos.Application.csproj.CoreCompileInputs.cache
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\APR.Pedidos.Application.csproj.CopyComplete
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\APR.Pedidos.Application.dll
+C:\projects\Personales\APR.Pedidos\APR.API.Pedidos\APR.Pedidos.Application\obj\Release\netstandard2.1\APR.Pedidos.Application.pdb
